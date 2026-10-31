@@ -5,7 +5,7 @@ import numpy as np
 
 class ImageGenerator(object):
 
-    def __init__(self, image_dir,size, batch_size, num_cpus = 16):
+    def __init__(self, image_dir,size, batch_size, num_cpus = 2):
         self.paths = self.get_image_paths_train(image_dir)
         self.num_images = len(self.paths)
         self.num_cpus = num_cpus
