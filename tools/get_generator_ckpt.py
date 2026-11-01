@@ -1,5 +1,5 @@
 import argparse
-from tools.utils import *
+from utils import *
 import os
 from net import generator
 
